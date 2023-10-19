@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="MailKit" Version="4.1.0" />
+    <PackageReference Include="MimeKit" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HRM_Common\HRM_Common.csproj" />
+    <ProjectReference Include="..\HRM_Domain\HRM_Domain.csproj" />
+    <ProjectReference Include="..\HRM_Infrastructure\HRM_Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
