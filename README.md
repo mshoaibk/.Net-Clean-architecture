@@ -12,7 +12,7 @@
 
 - **Unit Testing**: Our codebase includes a comprehensive suite of unit tests that verify the correctness of the application's behavior, ensuring robustness and maintainability.
 
-- **Logging and Exception Handling**: Our demo incorporates logging and exception handling strategies to track application activities and handle errors gracefully, enhancing reliability and supportability.
+- **Logging and Exception Handling**: Our project incorporates robust logging and sophisticated exception handling strategies using the "Serilog" library to meticulously track application activities and gracefully manage errors. This enhances the overall reliability and supportability of the application, making it more resilient and easier to maintain.
 
 - **Scalability and Performance**: Designed with scalability in mind, the architecture allows for easy scaling by adding new modules or microservices. Performance considerations are included in various aspects of the application.
 
